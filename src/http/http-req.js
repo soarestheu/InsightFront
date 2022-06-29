@@ -3,6 +3,7 @@ import Cookie from 'js-cookie';
 
 export default axios.create({
     //URL do endpoint (minha API)
+    // baseURL: "http://testesp.test/api/base",
     baseURL: "https://api-gestaoinsight.herokuapp.com/api/base",
     headers: {
         "Content-type": "application/json",
