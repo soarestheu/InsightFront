@@ -1,24 +1,21 @@
-# front
+# Desafio Insight Gestão - Front-end
 
-## Project setup
-```
-npm install
-```
+Este projeto foi desenvolvido com:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- VueJs
 
-### Compiles and minifies for production
+
+### Antes de iniciar o projeto, indique qual a url da endpoint do projeto no "baseURL" do arquivo: 
 ```
-npm run build
+src/http/http-req.js
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Para rodar este projeto
+```bash
+$ git https://github.com/soarestheu/InsightFront.git
+$ cd InsightFront
+$ npm install #Instalação das dependencias do projeto
+$ npm run serve #roda a aplicação
+```
+Acesssar pela url: http://localhost:8080
