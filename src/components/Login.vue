@@ -66,7 +66,7 @@ export default {
                 Cookie.set("Crud_token", this.token.access_token);
                 this.submitted = true;
                 this.$router
-                    .go('listUser');
+                    .go('/listUser');
             }
         }
 

@@ -2,8 +2,14 @@
   <div class="list">
     <div class="row">
       <div class="col-md-12">
+
         <h4>
           Listagem de tarefas
+        
+          <router-link to="/newTask" class="btn btn-primary">
+            Cadasatrar Tarefa 
+          </router-link>
+        
         </h4>
         <table class="table table-striped-columns table-hover">
           <thead>
@@ -15,7 +21,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr  v-for="(task, index) in tasks" :key="index">
+            <tr v-for="(task, index) in tasks" :key="index">
               <td>{{ task.nome }}</td>
               <td>{{ task.data_conclusao }}</td>
               <td>
@@ -41,10 +47,6 @@
           &nbsp;
     </div>
     <div class="row col-md-6">
-          <router-link to="/newTask" class="btn btn-primary">
-            Cadasatrar Usuário 
-            <font-awesome-icon icon="task-plus" />
-          </router-link>
     </div>
   </div>
 </template>

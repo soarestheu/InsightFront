@@ -1,7 +1,7 @@
 <template>
 
   <div v-if="true" class="edit-form">
-    <h4>Usuário </h4>
+    <h4>Tarefa </h4>
     <form>
       <div class="form-group">
         <label for="name">Tarefa:</label>
@@ -64,8 +64,6 @@ export default {
   },
   methods: {
     async getTask(id) {
-        console.log(id);
-
         this.currentTask = await getTask(id);
     },
 
@@ -75,7 +73,7 @@ export default {
           alert(this.returnUpdate.sucess)
           this.$router
             .replace({
-                path: '/listTask',
+                name: 'listTask',
             });
         }
     },

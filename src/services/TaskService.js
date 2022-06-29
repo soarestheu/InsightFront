@@ -17,7 +17,6 @@ export function createTask(data) {
 export function getTask(id) {
     return http.get(`/task/${id}`)
         .then(response => {
-            console.log(response.data)
             return response.data;
         });
 }
