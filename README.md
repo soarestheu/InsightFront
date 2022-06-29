@@ -10,6 +10,11 @@ Este projeto foi desenvolvido com:
 src/http/http-req.js
 ```
 
+## Credemcial inicial de login (quando utilizado o projeto https://github.com/soarestheu/InsightBack)
+
+- E-mail: contato@teste.com
+- Password: 123123
+
 
 ## Para rodar este projeto
 ```bash
